@@ -63,8 +63,8 @@
     background: var(--blue-dark);
   }
   
-  button.startCycleButtonActive {
-    background: var(--white);
+  .countdownButtonActive {
+  background: var(--white);
     color: var(--title);
   }
   
