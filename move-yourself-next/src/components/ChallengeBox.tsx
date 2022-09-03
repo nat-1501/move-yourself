@@ -5,15 +5,30 @@ export function ChallengeBox() {
 
 
     return (
-        <div className={styles.challengeBoxContainer} >
+        <div className={styles.challengeContainer}>
             { hasActiveChallenge ? (
             <div className={styles.challengeActive}>    
                 <header>Ganhe 400 xp</header>
                     <main>
-                        <img src="icons/bodt.svg" />
+                        <img src="icons/body.svg" />
                         <strong>Novo desafio</strong>
                         <p>Levante e faça 10 polichinelos</p>
                     </main>
+
+                    <footer>
+                        <button
+                        type="button"
+                        className={styles.challengeFailedButton}
+                        >
+                            Falhei
+                        </button>
+                        <button 
+                        type="button"
+                        className={styles.challengeSucceedeButton}
+                        >
+                            Completei
+                        </button>
+                    </footer>
                 <div/>
             ) : (
             <div className={styles.challengeNoActive}>
@@ -24,7 +39,7 @@ export function ChallengeBox() {
                 </p>
             
             </div>
-            )}
+            ) }
         </div>
-    )
+    );
 }
