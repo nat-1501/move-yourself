@@ -24,13 +24,13 @@ export function ChallengeBox() {
                         </button>
                         <button 
                         type="button"
-                        className={styles.challengeSucceedeButton}
+                        className={styles.challengeSucceededButton}
                         >
                             Completei
                         </button>
                     </footer>
-                <div/>
-            ) : (
+                </div>
+             ) : (
             <div className={styles.challengeNoActive}>
                <strong>Inicie um ciclo para receber desafios a serem completados</strong>
                 <p>
