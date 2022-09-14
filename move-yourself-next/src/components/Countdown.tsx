@@ -49,7 +49,7 @@ export function Countdown() {
             <button 
                 type="button" 
                 className={'styles.countdownButton} ${styles.countdownButtonActive}'}
-                onClick={resetCowntdown}
+                onClick={resetCountdown}
             >
              Abandonar ciclo
             </button>  
