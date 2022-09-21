@@ -14,3 +14,17 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nat-1501/move-yourself)
 
 </div>
+
+
+## 💻 Project
+
+move.it is an app that combines the Pomodoro technique with physical exercises for those who spend a lot of time in front of the computer.
+
+
+## ✨ Technology
+
+This project was developed with the following technologies:
+
+- [React](https://reactjs.org)
+- [Next.js](https://nextjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
