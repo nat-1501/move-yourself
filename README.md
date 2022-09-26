@@ -28,3 +28,34 @@ This project was developed with the following technologies:
 - [React](https://reactjs.org)
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+
+
+## ⚒️  Pre-requisites
+
+You must have it installed on your machine ([Vscode](https://code.visualstudio.com/download)), or another one of your choice, and ([Git](https://git-scm.com/downloads))
+
+## :memo: Clone repository
+
+Go to the directory where you want to place the repository
+
+```bash
+  cd my-directory
+```
+
+clone the project
+
+```bash
+  git clone https://github.com/nat-1501/move-yourself.git
+```
+
+Go to the project directory
+
+```bash
+  cd move-yourself
+```
+
+Now open in the text editor you prefer (in the case of VScode)
+
+```bash
+  code .
+```
