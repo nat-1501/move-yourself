@@ -62,3 +62,6 @@ Now open in the text editor you prefer (in the case of VScode)
 ```bash
   code .
 ```
+
+Now you can access [`localhost:3000`](http://localhost:3000) from your browser.
+
